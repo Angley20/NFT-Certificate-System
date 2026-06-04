@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0a0f1f;
+}
+
+.bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-container {
+  width: 900px;
+  padding: 25px;
+  border-radius: 18px;
+  background: rgba(20, 30, 60, 0.6);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 40px rgba(0, 100, 255, 0.2);
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  color: #4ea1ff;
+  margin-bottom: 5px;
+}
+
+.header p {
+  color: #bcd3ff;
+  font-size: 14px;
+}
+
+.wallet-btn {
+  margin-top: 10px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background: #1f6fff;
+  color: white;
+  cursor: pointer;
+}
+
+.wallet-btn:hover {
+  background: #0f5be0;
+}
+
+/* STATUS */
+.status {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.ok {
+  background: rgba(0, 255, 150, 0.2);
+}
+
+.bad {
+  background: rgba(255, 80, 80, 0.2);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: rgba(10, 20, 40, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 100, 255, 0.1);
+}
+
+.card h2 {
+  color: #4ea1ff;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #111c33;
+  color: white;
+}
+
+/* BUTTON */
+.mint-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #1f6fff;
+  color: white;
+  cursor: pointer;
+}
+
+.mint-btn:hover {
+  background: #0f5be0;
+}
+
+/* CERTIFICATE */
+.cert-box {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 80, 255, 0.1);
+  border: 1px solid rgba(0, 120, 255, 0.3);
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #bcd3ff;
+  font-size: 13px;
+}
